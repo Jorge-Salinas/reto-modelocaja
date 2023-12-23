@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+color: white;
+text-align: center;
+}
+
+main {
+    background-color: white;
+    border: 20px solid white;
+    flex: 1;
+}
+.producto-1 {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid rgb(206, 202, 202);
+    margin-bottom: 20px;
+}
+
+.producto-2 {
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1px solid rgb(206, 202, 202);   
+}
+
+.producto-1 a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+.producto-2 a {
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+
+footer {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
